@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.guest.madlibs.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foreign Country"
+        android:id="@+id/foreignCountryLabel"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:id="@+id/foreignCountry"
+        android:layout_below="@+id/foreignCountryLabel"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adverb"
+        android:id="@+id/adverb1Label"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/foreignCountry"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:id="@+id/adverb1"
+        android:layout_below="@+id/adverb1Label"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adjective"
+        android:id="@+id/adjective1Label"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/adverb1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:layout_below="@+id/adjective1Label"
+        android:id="@+id/adjective1"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adjective1"
+        android:text="Animal"
+        android:textColor="@android:color/black"
+        android:id="@+id/animalLabel"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/animalLabel"
+        android:background="@android:color/holo_green_light"
+        android:id="@+id/animal"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/animal"
+        android:id="@+id/verbing1Label"
+        android:textColor="@android:color/black"
+        android:text="Verb Ending In 'ing'"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verbing1Label"
+        android:id="@+id/verbing1"
+        android:background="@android:color/holo_green_light"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verbing1"
+        android:id="@+id/verb1Label"
+        android:textColor="@android:color/black"
+        android:text="Verb"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verb1Label"
+        android:id="@+id/verb1"
+        android:background="@android:color/holo_green_light"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verb1"
+        android:id="@+id/verbing2Label"
+        android:textColor="@android:color/black"
+        android:text="Verb Ending In 'ing'"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verbing2Label"
+        android:id="@+id/verbing2"
+        android:background="@android:color/holo_green_light"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verbing2"
+        android:id="@+id/adverb2Label"
+        android:textColor="@android:color/black"
+        android:text="Adverb"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adverb2Label"
+        android:id="@+id/adverb2"
+        android:background="@android:color/holo_green_light"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adverb2"
+        android:id="@+id/adjective2Label"
+        android:textColor="@android:color/black"
+        android:text="Adjective"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adjective2Label"
+        android:id="@+id/adjective2"
+        android:background="@android:color/holo_green_light"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adjective2"
+        android:id="@+id/placeLabel"
+        android:textColor="@android:color/black"
+        android:text="A Place"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/placeLabel"
+        android:id="@+id/place"
+        android:background="@android:color/holo_green_light"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/place"
+        android:id="@+id/liquidLabel"
+        android:textColor="@android:color/black"
+        android:text="Type of Liquid"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liquidLabel"
+        android:id="@+id/liquid"
+        android:background="@android:color/holo_green_light"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liquid"
+        android:id="@+id/bodyLabel"
+        android:textColor="@android:color/black"
+        android:text="Part of the Body"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bodyLabel"
+        android:id="@+id/body"
+        android:background="@android:color/holo_green_light"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/body"
+        android:id="@+id/verb2Label"
+        android:textColor="@android:color/black"
+        android:text="Verb"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verb2Label"
+        android:id="@+id/verb2"
+        android:background="@android:color/holo_green_light"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO!"
+        android:id="@+id/goButton"
+        android:layout_below="@+id/verb2"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"/>
+
+    </RelativeLayout>
+
+</ScrollView>
