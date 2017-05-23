@@ -49,19 +49,9 @@ public class MainActivity extends AppCompatActivity {
                 String body = mBody.getText().toString();
                 String verb2 = mVerb2.getText().toString();
                 Intent intent = new Intent(MainActivity.this, MadLibActivity.class);
-                intent.putExtra("foreignCountry", foreignCountry);
-                intent.putExtra("adverb1", adverb1);
-                intent.putExtra("adjective1", adjective1);
-                intent.putExtra("animal", animal);
-                intent.putExtra("verbing1", verbing1);
-                intent.putExtra("verb1", verb1);
-                intent.putExtra("verbing2", verbing2);
-                intent.putExtra("adverb2", adverb2);
-                intent.putExtra("adjective2", adjective2);
-                intent.putExtra("place", place);
-                intent.putExtra("liquid", liquid);
-                intent.putExtra("body", body);
-                intent.putExtra("verb2", verb2);
+
+                String[] answers = {foreignCountry, adverb1, adjective1, animal, verbing1, verb1, verbing2, adverb2, adjective2, place, liquid, body, verb2};
+                intent.putExtra("answers", answers);
                 startActivity(intent);
             }
         });
